@@ -1,16 +1,32 @@
 import React from 'react'
-import './App.css'
-import { Button } from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import Header from './components/Header'
 
-function App() {
-  return (
-		<div>
-			<h1>JAPANESE</h1>
-			<Button variant='primary'>Buttton</Button>
-		</div>
-  );
+const placeholderText = 'Type here..'
+
+const Title = () => {
+	return(
+		<h1>Title</h1>
+	)
 }
 
 
-export default App;
+class App extends React.Component {
+	render() {
+		return (
+			<div>
+				<Title/>
+				<Header title='I can do props!'/>
+				<h1>Hello! I was here</h1>
+				<input
+				onMouseEnter={this.mouseOver}
+				placeholder={placeholderText}
+				onClick={this.inputClick}
+				/>
+			</div>
+		)
+	}
+	inputClick() { console.log('Clicked')}
+	mouseOver() { console.log('Mouse over the Input')}
+}
+
+export default App 
