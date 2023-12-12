@@ -31,12 +31,14 @@
 	border-radius: 20px;
 	justify-content: center;
 	align-items: center;
+	transition: 0.5s ease-in-out;
 }
 
 .question-card__symbol__text {
 	color: #fff;
 	font-size: 80px;
 	text-decoration: none;
+	transition: 0.5s ease-in-out;
 }
 
 .question-card__pronaunce {
@@ -81,22 +83,36 @@
 	height: 30px;
 	color: #fff;
 	font-size: 16px;
+	transition: 0.5s ease-in-out;
 }
 
 .button:hover {
 	background-color: #7623FD;
+	transition: 0.3s ease-in-out;
+	width: 94px;
+	height: 32px;
+	
 }
 
 .hint-button{
-	margin: 10px 20px;
+	/* margin: 10px 20px; */
+	position: absolute;
 	color: #fff;
 	width: 90px;
 	height: 30px;
 	background-color: #454545;
 	border-radius: 10px;
 	border: 1px solid #000;
-	margin-top: 20px;
+	/* margin-top: 20px; */
 	font-size: 16px;
+	transition: 0.3s ease-in-out;
+	bottom: 50px;
+	left: 130px;
+}
+.hint-button:hover{
+	transition: 0.3s ease-in-out;
+	width: 94px;
+	height: 32px;
 }
 
 .hint-text{

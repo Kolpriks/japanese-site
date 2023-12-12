@@ -16,12 +16,25 @@ function Header() {
       <header className="header">
         <div className="header__wraper">
           <div className="header__logo">
-            <a href="#">Logo</a>
+            <p className="logo">学</p>
           </div>
           <div className="header__languages">
-            <a href="#" onClick={() => handleButtonClick('hiragana')}>Hiragana</a>
-            <a href="#" onClick={() => handleButtonClick('katakana')}>Katakana</a>
-            <a href="#">Kanji</a>
+            <p
+              href="#"
+              onClick={() => handleButtonClick('hiragana')}
+              className={selectedComponent === 'hiragana' ? 'active' : 'header-text'}
+            >
+              Hiragana
+            </p>
+            <p
+
+              href="#"
+              onClick={() => handleButtonClick('katakana')}
+              className={selectedComponent === 'katakana' ? 'active' : 'header-text'}
+            >
+              Katakana
+            </p>
+            <p href="#" className='header-text'>Kanji</p>
           </div>
           <div className="profile">
             <img className="profile__img" src={profile} width="20px" alt="Profile"/>
@@ -36,3 +49,4 @@ function Header() {
 }
 
 export default Header;
+
