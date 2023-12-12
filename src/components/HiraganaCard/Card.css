@@ -80,8 +80,35 @@
 	width: 90px;
 	height: 30px;
 	color: #fff;
+	font-size: 16px;
 }
 
 .button:hover {
 	background-color: #7623FD;
+}
+
+.hint-button{
+	margin: 10px 20px;
+	color: #fff;
+	width: 90px;
+	height: 30px;
+	background-color: #454545;
+	border-radius: 10px;
+	border: 1px solid #000;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.hint-text{
+	color: #fff;
+	font-size: 20px;
+	align-items: center;
+	padding-top: 2px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	width: 90px;
+	height: 30px;
+	margin-top: 20px;
+	text-align: center;
+	background-color: #454545;
 }

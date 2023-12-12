@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from './components/Header/Header'
-import Card from './components/Card/Card'
 import Footer from './components/Footer/Footer'
 import './styles/main.css'
 
@@ -19,12 +18,6 @@ class App extends React.Component {
 			<div className="container">
 				{/* <Title/> */}
 				<Header/>
-				{/* <input
-				onMouseEnter={this.mouseOver}
-				placeholder={placeholderText}
-				onClick={this.inputClick}
-				/> */}
-				<Card/>
 				<Footer/>
 			</div>
 		)

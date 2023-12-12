@@ -8,7 +8,7 @@ class Footer extends React.Component{
 			<div className="footer__text">
 				<div className="year">2023</div>
 				<span className="separator"></span>
-				<div className="end-text">Website made by two enthusiasts</div>
+				<div className="end-text">Website made by Kolpriks</div>
 			</div>
 		</footer>
 		)
