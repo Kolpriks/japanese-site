@@ -6,15 +6,15 @@
 
 body{
 	background-color: #222222;
-	height: 100vh;
-	width: 100vw;
-	overflow: hidden;
+	/* height: 100%;
+	width: 100%; */
+	/* overflow: hidden; */
 }
 
-.container {
+/* .container {
 	height: 90%;
 	width: 100%;
-}
+} */
 
 /* Анимации для ответов */
 .success-animation {

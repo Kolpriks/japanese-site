@@ -34,7 +34,7 @@ class KatakanaCard extends React.Component {
 
     const body = document.querySelector('body');
 
-    if (userInput === symbolKey) {
+    if (userInput.toLowerCase() === symbolKey) {
         body.classList.add('success-animation');
         setTimeout(() => {
             body.classList.remove('success-animation');
