@@ -27,7 +27,6 @@ function Header() {
               Hiragana
             </p>
             <p
-
               href="#"
               onClick={() => handleButtonClick('katakana')}
               className={selectedComponent === 'katakana' ? 'active' : 'header-text'}
