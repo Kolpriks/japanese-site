@@ -34,6 +34,12 @@
 	position: relative;
 }
 
+@media (max-width: 350px) {
+	.profile{
+		display: none;
+	}	
+}
+
 .profile img {
 	padding-right: 5px;
 }
@@ -62,4 +68,22 @@
 	padding-top: 5px;
 	font-weight: 600;
 	letter-spacing: 0.1rem;
+}
+
+.header__languages {
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+	.header__languages {
+			width: 50%;
+	}
+}
+
+@media (max-width: 768px) {
+	.header__languages {
+			width: 60%;
+	}
 }

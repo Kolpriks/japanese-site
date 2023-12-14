@@ -22,6 +22,11 @@
 	padding-top: 50px;
 	box-shadow: 0px 0px 20px 0px #000000;
 }
+@media (max-width: 768px) {
+	.question-card {
+			width: 300px;
+	}
+}
 
 .question-card__symbol {
 	display: flex;
@@ -91,8 +96,17 @@
 	transition: 0.3s ease-in-out;
 	width: 94px;
 	height: 32px;
-	
 }
+
+@media (max-width: 768px) {
+	.button:hover {
+		background-color:  #9154F5;
+		width: 90px;
+		height: 30px;
+	}
+}
+
+
 
 .hint-button{
 	/* margin: 10px 20px; */
@@ -109,11 +123,26 @@
 	bottom: 50px;
 	left: 130px;
 }
+
+@media (max-width: 768px) {
+	.hint-button {
+		bottom: 50px;
+		left: 105px;
+	}
+}
+
 .hint-button:hover{
 	transition: 0.3s ease-in-out;
 	width: 94px;
 	height: 32px;
 }
+@media (max-width: 768px) {
+	.hint-button:hover {
+		width: 90px;
+		height: 30px;
+	}
+}
+
 
 .hint-text{
 	color: #fff;

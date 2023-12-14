@@ -11,16 +11,12 @@ body{
 	overflow: hidden;
 }
 
-
 .container {
 	height: 90%;
 	width: 100%;
 }
 
-
-
 /* Анимации для ответов */
-/* Анимация для успешного случая */
 .success-animation {
 	animation-name: successBackground;
 	animation-duration: 1s;
@@ -38,7 +34,7 @@ body{
 	}
 }
 
-/* Анимация для неуспешного случая */
+
 .failure-animation {
 	animation-name: failureBackground;
 	animation-duration: 1s;
