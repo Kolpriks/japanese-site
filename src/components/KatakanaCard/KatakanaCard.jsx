@@ -52,8 +52,13 @@ class KatakanaCard extends React.Component {
 
 	handleInputChange = (event) => {
 		this.setState({ userInput: event.target.value });
-	};
+	}
 
+	handleKeyPress = (event) => {
+		if (event.key === 'Enter') {
+			this.handleSubmit();
+		}
+	}
 
 	render() {
 		const { currentSymbol, userInput } = this.state;
@@ -77,7 +82,9 @@ class KatakanaCard extends React.Component {
 					placeholder="Type here..."
 					onChange={this.handleInputChange}
 					value={userInput}
+					onKeyUp={this.handleKeyPress}
 					maxLength="10"/>
+					
 				</div>
 
 				<div className="buttons">

@@ -81,7 +81,7 @@ class HiraganaCard extends React.Component {
 					placeholder="Type here..."
 					onChange={this.handleInputChange}
 					value={userInput}
-					onKeyPress={this.handleKeyPress} // Добавляем обработчик нажатия клавиши
+					onKeyUp={this.handleKeyPress} // Добавляем обработчик нажатия клавиши
 					maxLength="10"/>
 					
 				</div>
