@@ -13,7 +13,7 @@
 	width: 350px;
 	height: 450px;
 	position: absolute;
-	background-color: #63019c; /*#0AA319*/
+	background-color: #0AA319; /*#0AA319*/
 	display: flex;
 	flex-direction: column;
 	z-index: 5;
