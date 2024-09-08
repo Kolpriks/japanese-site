@@ -8,6 +8,7 @@ class HiraganaCard extends React.Component {
 		userInput: '',
 	};
 
+	//ERROR HERE
 	dictionary = {
 		'error': 'a', 'error': 'i', 'error': 'u', 'え': 'e', 'error': 'o', 'か': 'ka', 'error': 'ki',
 		'error': 'ku', 'error': 'ke', 'こ': 'ko', 'さ': 'sa', 'し': 'shi', 'error': 'su', 'error': 'se', 'そ': 'so',
@@ -102,6 +103,7 @@ class HiraganaCard extends React.Component {
 					<div className="buttons">
 
 						<button className="button" onClick={this.handleSubmit}>Skip</button>
+						{/* //ERROR HERE */}
 						<button className="button" onClick={this.handleSubmit} disabled={true}>Sumbit</button>
 
 					</div>

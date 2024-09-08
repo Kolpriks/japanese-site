@@ -27,6 +27,7 @@ const KatakanaHint = (props) => {
 			{!showHint ? (
 				<button className="hint-button" onClick={toggleHint}>Hint</button>
 			) : (
+				//ERROR HERE
 				// <p className="hint-text">{dictionary[currentKey]}</p>
 				<p className="hint-text">Error</p>
 			)}

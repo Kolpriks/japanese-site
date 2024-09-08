@@ -12,7 +12,7 @@ function Header() {
   };
 
   return (
-		<div>
+    <div>
       <header className="header">
         <div className="header__wraper">
           <div className="header__logo">
@@ -35,9 +35,10 @@ function Header() {
             </p>
             {/* <p href="#" className='header-text'>Kanji</p> */}
           </div>
+          {/* //ERROR HERE */}
           <div className="profile">
-            <img className="profile__img" src={profile} width="20px" alt="Profile"/>
-							<a href="#">Profile</a>
+            <img className="profile__img" src={profile} width="20px" alt="Profile" />
+            <a href="#">Profile</a>
           </div>
         </div>
       </header>
